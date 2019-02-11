@@ -1,0 +1,4 @@
+Given a string, Return a new string with the reversed order of its characters.
+Example ::
+apple : elppa
+hello : olleh

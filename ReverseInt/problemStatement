@@ -1,0 +1,6 @@
+Given a integer, return an integer that is the reverse ordering of the numbers.
+Examples =>
+15 : 51,
+-200 : -2,
+92 : 29,
+-18 : -81

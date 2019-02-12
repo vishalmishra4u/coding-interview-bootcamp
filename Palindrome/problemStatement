@@ -1,0 +1,5 @@
+Return true or false on the basis of if a string is palindrome or not.
+Example =>
+
+abba : true,
+apple : false

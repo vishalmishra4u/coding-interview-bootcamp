@@ -1,0 +1,5 @@
+Given a string, return the char that is most commonly used in the string.
+Examples :
+"abccccff" : c
+"apple" : p
+"bbca 122211111" : 1

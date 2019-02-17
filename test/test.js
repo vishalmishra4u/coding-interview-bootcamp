@@ -33,6 +33,6 @@ describe('maxChars()', function() {
 
 describe('matrixTranspose()', function() {
   it('should return transpose of matrix', function() {
-    assert.equal(matrixTranspose([[2,3,9],[1,4,7],[5,6,8]]), [[2,1,5],[1,4,7],[9,7,8]]);
+    assert.equal(matrixTranspose([[2,3,9],[1,4,7],[5,6,8]]), [[2,1,5],[3,4,6],[9,7,8]]);
   });
 });

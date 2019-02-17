@@ -1,7 +1,8 @@
 var assert = require('assert'),
   reverse = require('./../StringReversal/stringReversal2'),
-  palindrome = require('./../Palindrome/palindrome2');
-  maxChars = require('./../MaxChars/maxChars');
+  palindrome = require('./../Palindrome/palindrome2'),
+  maxChars = require('./../MaxChars/maxChars'),
+  matrixTranspose = require('./../MatrixTranspose/matrixTranspose');
 
 describe('reverse()', function() {
   it('should return the reverse of the passed string', function() {
@@ -21,11 +22,17 @@ describe('palindrome()', function() {
   });
 });
 
-describe('palindrome()', function() {
+describe('maxChars()', function() {
   it('should return max number of chars used in the string', function() {
     assert.equal(maxChars('apple'), "p");
   });
   it('should return max number of chars used in the string', function() {
     assert.equal(maxChars('abbcc 1122233333'), "3");
+  });
+});
+
+describe('matrixTranspose()', function() {
+  it('should return transpose of matrix', function() {
+    assert.equal(matrixTranspose([[2,3,9],[1,4,7],[5,6,8]]), [[2,1,5],[1,4,7],[9,7,8]]);
   });
 });

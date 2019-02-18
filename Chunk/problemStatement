@@ -1,0 +1,5 @@
+Given an array and chunk size, divide the array into many subarrays where each subarrays length is of chunk size.
+
+Examples :
+chunk([1,2,3,4,5],2)  : [[1,2],[3,4],[5]],
+chunk([1,5,4,6],3) : [[1,5,4][6]] 

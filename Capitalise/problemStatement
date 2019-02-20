@@ -1,0 +1,6 @@
+Write a function that accepts a string. The function should capitalise first letter of each word in the string and return the capitalized string.
+--- Examples :
+
+capitalise('a succeessful life') : 'A Successful Life'
+capitalise('a happy life') : 'A Happy Life'
+capitalise('a rich life') : 'A Rich Life'
